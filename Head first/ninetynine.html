@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Cans on the wall</title>
+<title>bottles on the wall</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">    
 <style>
 body {
@@ -15,19 +15,19 @@ body {
 <script>
     var drink = "sweetest tea";
     var lyrics = "";
-    var cans = 99;
-    while (cans > 0) {
-    lyrics = lyrics + cans + " bottles of "
-    + drink + " on the wall <br>"; lyrics = lyrics + cans + " bottles of "
+    var bottles = 99;
+    while (bottles > 0) {
+    lyrics = lyrics + bottles + " bottles of "
+    + drink + " on the wall <br>"; lyrics = lyrics + bottles + " bottles of "
     + drink + "<br>";
     lyrics = lyrics + "Take one down, pass it around,<br>";
-    if (cans > 1) {
-    lyrics = lyrics + (cans-1) + " bottles of "
+    if (bottles > 1) {
+    lyrics = lyrics + (bottles-1) + " bottles of "
     + drink + " on the wall <br>";
     }else {
     lyrics = lyrics + "No more bottles of "
     + drink + " on the wall <br>";
-    }cans = cans - 1;
+    }bottles = bottles - 1;
     } document.write(lyrics);
 
 
