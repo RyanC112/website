@@ -31,12 +31,22 @@
   <p>
     <input type="radio" id="test4" name="radio-group">
     <label for="test4"> HTML5 APIs</label>
+    [type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
 </form>
   
-  form{
-    max-width: 640px;
-    margin: 10px auto;
-}
+  
 <h1>RYAN LOOK HERE</h1>
 
 <footer>
