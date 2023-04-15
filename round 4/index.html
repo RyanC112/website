@@ -3,7 +3,7 @@
 <head>
   <title>Question 54A</title> 
   <style>  
-    footer, p, form, select, option, value, label, div, h1  {
+    footer, p, form, select, option, value, label, div, h1, h2  {
     text-align: center;
       text-size-adjust: auto;
 }
@@ -39,13 +39,13 @@ window.onload = init;
   <p> A. Checkboxes</p>
   <p> B. Select lists</p>
   <p style="background: #009FB7;"> C. Radio buttons</p> 
-  <p> D. Submit buttons</p>
-
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <p> D. Submit buttons</p> 
   
   
-  <p> Checkboxes are square shaped selectors/buttons that are checked off when selected hence the name checkbox. They allow for mutiple answers to be selected at once.</p>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
   
+  <h2> CheckBoxes</h2>
+  <p> Checkboxes are a group of square shaped selectors/buttons that are checked off when selected hence the name checkbox. They allow for mutiple pre-determined answers to be selected at once.</p>
   <form action="#">
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 <label for="vehicle1"> I have a bike</label><br>
@@ -58,7 +58,7 @@ window.onload = init;
   </form>
   
   
-  
+  <h2> Select List</h2>
   <p> A select list creates a drop down menu with a list of preset answers. Select list only allows for one answer to be selected.</p> 
   <div>
   <label for="cars">Choose a car:</label>
@@ -71,8 +71,9 @@ window.onload = init;
 </select>
   </div>
   <br>
-  <p> Radio buttons are a round button that Only allow one button in a group can be selected at the same time.</p>
-  
+ 
+  <h2> Radio Button</h2>
+  <p> Radio buttons are a group round button that only allow one pre-determined options be selected at the same time.</p>
   <form action="#">
  <input type="radio" id="HTML" name="fav_language" value="HTML"> 
 <label for="HTML">HTML</label><br>
@@ -82,8 +83,9 @@ window.onload = init;
 <label for="javascript">JavaScript</label>
   <br>
   </form>
- 
-  <p> A submit button submits all form values to a form-handler. The form-handler is typically a server page with a script for processing the input data.</p>
+  
+ <h2> Submit Button</h2>
+  <p> A submit button submits all form values to a form-handler. The Submit button is only allowed to submit the data put into the given form. The form-handler is typically a server page with a script for processing the input data. </p>
   <form action="https://ryanc112.github.io/website/testing/index.html">
   <label for="fname">First name: </label>
   <input type="text" id="fname" name="fname"><br><br>
